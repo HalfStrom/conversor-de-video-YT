@@ -1,0 +1,28 @@
+{
+  "name": "conversor-de-video-yt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node pages/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalfStrom/conversor-de-video-YT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HalfStrom/conversor-de-video-YT/issues"
+  },
+  "homepage": "https://github.com/HalfStrom/conversor-de-video-YT#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ffmpeg-static": "^5.2.0",
+    "ytdl-core": "^4.11.5",
+    "@distube/ytdl-core": "^4.13.3"
+  }
+}
